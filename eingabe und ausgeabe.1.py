@@ -30,15 +30,16 @@
 
 #aufgabe 5
 
-a=float(input("Gebe die Laenger der seite a an :"))
-b= float(input("Gebe die Laenger der seite b an :"))
+#a=float(input("Gebe die Laenger der seite a an :"))
+#b= float(input("Gebe die Laenger der seite b an :"))
 
-dio=(a*a+b*b)
+#dio=(a*a+b*b)
 
-print("fläscheninhalt",a*b)
-print("Diagolnale",dio**(1/2))
+#print("fläscheninhalt",a*b)
+#print("Diagolnale",dio**(1/2))
 
-print("Unfang",2*a+2*b)
+#print("Unfang",2*a+2*b)
+
 
 
 

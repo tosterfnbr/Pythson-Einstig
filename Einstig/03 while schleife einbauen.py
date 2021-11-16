@@ -1,3 +1,5 @@
+import operator
+
 print ("Aufgabe 1")
 
 i=0
@@ -47,8 +49,6 @@ while y <= 3:
         x += 1
 
     y += 1
-
-    x = 1
 
 
 
