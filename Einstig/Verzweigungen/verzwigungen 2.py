@@ -37,3 +37,7 @@ if t1 >= t2 and tt1 >= tt2:
         print("Ergebnis: ", t1, ":", t2, "Tipp ", tt1, ":", tt2, " -> Punkte 3")
     else:
         print("Ergebnis: ", t1, ":", t2, "Tipp ", tt1, ":", tt2, " -> Punkte 1")
+
+#aufgabe 3 Uhrzeitrechner
+
+
