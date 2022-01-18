@@ -1,4 +1,4 @@
-var = input("wer das liest ist ein hund: ")
+var= input("wer das liest ist ein hund: ")
 
 
 
@@ -31,6 +31,3 @@ s = 1 * z1 + 2 * z2 + 3 * z3 + 4 * z4 + 5 * z5 + 6 * z6 + 7 * z7 + 8 * z8 + 9 * 
 
 r = s % 11
 
-print("Die prüff ziffer ist", r)
-
-print("Die ISBN ist", z1, z2, z3, z4, z5, z6, z7, z8, z9, r)

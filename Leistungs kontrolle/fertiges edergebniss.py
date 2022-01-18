@@ -40,4 +40,7 @@ if w == 0:
         print("sammtag")
         w + 1
 
-
+    if not moth.isdecimal() or not day.isdecimal():
+        print("Deine angabe wahr leider nicht als zahl geschrieben gebe mir bitte noch mal deine werte,aber diese mal als zahl")
+        moth = input("gebe deine monat als zahl ein  :")
+        day = input("Gebe deinen tag als zahl ein  :")

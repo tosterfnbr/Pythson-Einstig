@@ -1,15 +1,7 @@
-
-
-
-
-
 import math
 
-
-
-
-moth = input("gebe deine monat :")
 day = input("Gebe deinen tag :")
+moth = input("gebe deine monat :")
 jahr = input("Gebe deinen jahr :")
 
 w = ((int(day) + (2.6 * ((int(moth) + 9) % 12 + 1) - 0.2) + int(jahr) % 100 + (int(jahr) % 100 / 4) + (
@@ -17,58 +9,52 @@ w = ((int(day) + (2.6 * ((int(moth) + 9) % 12 + 1) - 0.2) + int(jahr) % 100 + (i
 
 w = math.floor(w)
 
+def jahr(year):
+    if year % 400 == 0:
 
+        return True
+    else:
+        if year % 4 == 0:
+            if year % 100 == 0:
+                return False
+
+            else:
+                return True
+        else:
+            return False
 while True:
-    if not moth.isdecimal() or not day.isdecimal():
-        print("Deine angabe wahr leider nicht als zahl geschrieben gebe mir bitte noch mal deine werte,aber diese mal als zahl")
-        moth = input("gebe deine monat als zahl ein  :")
-        day = input("Gebe deinen tag als zahl ein  :")
 
-    elif int(moth) >= 13 or int(day) >= 32:
+    if int(moth) >= 13 or int(day) >= 32:
 
-       print("deine angabe ist leider nicht koregt")
-       moth = input("gebe deine monat :")
-       day = input("Gebe deinen tag :")
+        print("deine angabe ist leider nicht koregt")
+        moth = input("gebe deine monat :")
+        day = input("Gebe deinen tag :")
 
-    elif w == 0:
+    if w == 0:
             print("sonntag")
-            w + 1
             quit()
 
-    elif w == 1:
+    if w == 1:
             print("montag")
-            w + 1
             quit()
 
-    elif w == 2:
+    if w == 2:
             print("dinstag")
-            w + 1
             quit()
 
-    elif w == 3:
+    if w == 3:
             print("mittwoch")
-            w + 1
             quit()
 
-    elif w == 4:
+    if w == 4:
             print("donnerstag")
-            w + 1
             quit()
-    elif w == 5:
+    if w == 5:
             print("freitag")
-            w + 1
             quit()
-    elif w == 6:
+    if w == 6:
              print("sammtag")
-             w + 1
              quit()
-
-
-
-
-
-
-
 
 
 
